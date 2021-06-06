@@ -1,10 +1,85 @@
+.js-clock,
+.js-form,
+.js-form input,
+.js-greetings,
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js-weather {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 15px;
+}
+
+.js-clock {
+  color: white;
+  font-size: 40px;
+  margin-top: 450px;
+}
+
+h1 {
+  margin: 30px;
+}
+
+.js-form input,
+.js-toDoForm input {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 40px;
+}
+
+.js-form input::placeholder,
+.js-toDoForm input::placeholder {
+  font-size: 12px;
+  opacity: 0.9;
+  text-justify: center;
+}
+
+.js-toDoForm {
+  margin-top: 10px;
+}
+
+.js-greetings {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.js-toDoList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.js-toDoList span {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.js-toDoList button {
+  font-size: 0.1%;
+  text-align: center;
+  color: red;
+  width: 25px;
+  height: 20px;
+  border: none;
+  background-color: white;
+}
+
 .form,
 .greetings {
   display: none;
 }
 
 .showing {
-  display: block;
+  display: flex;
 }
 
 @keyframes fadeIn {
